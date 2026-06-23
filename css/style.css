@@ -16,7 +16,7 @@ a:hover {
 
 nav {
     position: sticky;
-    background-color: rgb(28, 16, 32);
+    background-color: rgb(6, 4, 7);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,7 +35,7 @@ nav {
     color: rgb(223, 223, 223);
     height: 35px;
     width: 140px;
-    background-color: rgb(75, 53, 85);
+    background-color: rgb(25, 21, 27);
     border: 0;
     cursor: pointer;
     transition: 0.3s ease;
@@ -69,7 +69,7 @@ nav {
 
 header {
     height: 700px;
-    background-color: rgb(13, 5, 17);
+    background-color: rgb(11, 5, 14);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -105,7 +105,7 @@ span {
     color: rgb(223, 223, 223);
     height: 35px;
     width: 170px;
-    background-color: rgb(75, 53, 85);
+    background-color: rgb(25, 21, 27);
     border: 0;
     cursor: pointer;
     transition: 0.3s ease;
@@ -121,7 +121,7 @@ span {
 
 section {
     height: 700px;
-    background-color: rgb(13, 5, 17);
+    background-color: rgb(11, 5, 14);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -130,7 +130,7 @@ section {
 .sDivOsn {
     width: 1500px;
     height: 600px;
-    background-color: rgb(18, 7, 24);
+    background-color: rgb(11, 5, 14);
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
@@ -138,7 +138,6 @@ section {
 
 .sDiv1 {
     border-radius: 16px;
-    background-color: rgb(18, 7, 24);
     width: 750px;
     height: 600px;
     cursor: pointer;
@@ -146,7 +145,6 @@ section {
 
 .sDiv2 {
     border-radius: 16px;
-    background-color: rgb(18, 7, 24);
     width: 750px;
     height: 600px;
     display: flex;
@@ -208,7 +206,7 @@ section {
     color: rgb(223, 223, 223);
     height: 35px;
     width: 170px;
-    background-color: rgb(75, 53, 85);
+    background-color: rgb(25, 21, 27);
     border: 0;
     cursor: pointer;
     transition: 0.3s ease;
@@ -240,7 +238,6 @@ section {
 }
 
 .divGamesPlus {
-    background-color: rgb(18, 7, 24);
     border-radius: 16px;
     width: 300px;
     height: 400px;
@@ -260,4 +257,59 @@ section {
     border-radius: 16px;
     width: 250px;
     height: 320px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(11, 5, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+
+}
+
+.footerDivImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 52px;
+    font-weight: bold;
+    color: rgb(223, 223, 223);
+}
+
+.footerDiv {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ppSec {
+    color: rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    height: 744px;
+}
+
+ol {
+    list-style-type: decimal;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 40px;
+    
 }
