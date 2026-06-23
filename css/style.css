@@ -98,6 +98,7 @@ header {
 span {
     font-weight: bold;
     font-size: 80px;
+    color: rgb(223, 223, 223);
 }
 
 .headerButton{
@@ -364,4 +365,17 @@ ol {
     justify-content: center;
     height: 322px;
     width: 1300px;
+}
+
+.store {
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.storeSec {
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
 }
